@@ -11,4 +11,4 @@ To run the labOutput of labs do the following:
 Right click the "labOutput" folder
 Select "Open Terminal Here"
 Then in that terminal, type "java starter" - This will run the program
-If your notes corrupt for some reason, head to the following link and find them online: https://github.com/JacobPooleCV/AP_Poole25
+If your notes corrupt for some reason, head to the following link and find them online: https://github.com/JacobPooleCV/AP_Poole26
