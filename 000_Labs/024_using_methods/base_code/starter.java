@@ -13,8 +13,9 @@ class starter {
 	static ArrayList<String> arr = new ArrayList<String>();
 
 	public static void main(String args[]) throws InterruptedException {
-		// Write your code here
+		// Write your code here!
 
+		
 	}
 
 	// This method returns the local current time as a String
@@ -82,6 +83,16 @@ class starter {
 	//  This returns the number of letters, spaces, and punctuations in a sentence.
 	public static int lettersInSentence(String sent){
 		return sent.length();
+	}
+	
+	// This returns the number of words in a sentence
+	public static int wordsInSentence(String sent){
+		int spaceCount = 0;
+		while(sent.indexOf(" ") > -1){
+			spaceCount++;
+			sent = sent.substring(sent.indexOf(" ")+1);
+		}
+		return ++spaceCount;
 	}
 
 	// This method does a letter by letter comparison of each word and returns the number of errors.
